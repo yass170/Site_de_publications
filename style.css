@@ -1,0 +1,56 @@
+
+@import url('https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css');
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+
+.navbar {
+    background-color: #00d1b2; 
+    padding: 1rem;
+}
+
+.navbar-item {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-item:hover {
+    background-color: #00b89c;
+    color: white;
+}
+
+.notification.is-danger {
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #00b89c;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+textarea.textarea {
+    resize: none;
+}
+
+
